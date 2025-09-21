@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastering CSS Grid Layout | John Doe's Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <article class="blog-post-full">
+        <header>
+            <h1>Mastering CSS Grid Layout</h1>
+            <p class="meta">Published on June 15, 2023 • 10 min read</p>
+        </header>
+        
+        <img src="images/css-grid-banner.jpg" alt="CSS Grid Layout" class="banner">
+        
+        <div class="content">
+            <p>CSS Grid Layout is a powerful tool that allows web developers to create complex, responsive web layouts with ease. Unlike Flexbox, which is designed for one-dimensional layouts, Grid is built for two-dimensional layouts, making it perfect for overall page structure.</p>
+            
+            <h2>Getting Started with Grid</h2>
+            <p>To start using CSS Grid, you simply need to set the display property of a container to grid:</p>
+            
+            <pre><code>.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+}</code></pre>
+            
+            <h2>Advanced Grid Techniques</h2>
+            <p>One of the most powerful features of CSS Grid is the ability to name grid areas, which makes your code more readable and maintainable:</p>
+            
+            <pre><code>.container {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "sidebar content content"
+        "footer footer footer";
+}
+
+.header { grid-area: header; }
+.sidebar { grid-area: sidebar; }
+.content { grid-area: content; }
+.footer { grid-area: footer; }</code></pre>
+            
+            <p>With these techniques, you can create complex, responsive layouts that work across all device sizes.</p>
+        </div>
+        
+        <footer>
+            <a href="index.html#blogs" class="back-link">← Back to All Blogs</a>
+        </footer>
+    </article>
+</body>
+</html>
