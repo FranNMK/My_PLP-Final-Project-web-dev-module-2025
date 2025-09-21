@@ -15,23 +15,6 @@ A modern, responsive portfolio website built with HTML, CSS, and JavaScript. Fea
 - **Contact Options**: Multiple contact methods (call, WhatsApp, email, Telegram)
 - **Blog Section**: Placeholder for professional blog content with external links
 
-## 📁 Project Structure
-
-```
-## portfolio/
-├── index.html                 # Main HTML file
-├── assets/
-│   ├── css/
-│   │   ├── style.css          # Main stylesheet
-│   ├── js/
-│   │   └── script.js          # JavaScript functionality
-│   └── images/
-│       ├── Portifoili img.jpg
-│       
-├── blogcss.html         # Sample blog post        # Sample blog post
-├── blogexcel.html            # Sample blog post
-└── README.md
-```
 
 ## 🛠️ Technologies Used
 
