@@ -52,16 +52,15 @@ A modern, responsive portfolio website built with HTML, CSS, and JavaScript. Fea
 1. Clone or download the project files
 2. Ensure all file paths are correct for your environment
 3. Replace placeholder content with your information:
-   - Profile image (`assets/images/profile-picture.jpg`)
+   - Profile image 
    - Personal details in the About section
    - Real skills and projects
    - Actual contact information
    - Custom blog content
 
 4. For deployment:
-   - Upload all files to your web hosting service
-   - Ensure all internal links work correctly
-
+   - the site is live here
+https://frankonline.vercel.app/
 ## 🌐 Browser Compatibility
 
 - Chrome (recommended)
